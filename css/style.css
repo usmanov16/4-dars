@@ -1,0 +1,143 @@
+@import "./variables.css";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Jakarta", sans-serif;
+  display: flex;
+  background-color: var(--color-cream);
+
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+.header {
+  padding-top: 34px;
+  padding-left: 165px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__logo {
+}
+.header__btn {
+  background-color: black;
+  width: 228px;
+  height: 56px;
+  padding: 14px 45px;
+  border: 2px solid black;
+  border-radius: 28px;
+  border-color: black;
+}
+.btn {
+  font-family: Plus Jakarta Sans;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+}
+/* Services */
+.services {
+  padding-bottom: 68px;
+}
+.services__about {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 752px;
+}
+.services__title {
+  font-size: var(--heading-l-size);
+  margin-bottom: 23px;
+}
+.services__description {
+  padding-left: 11px;
+  padding-right: 11px;
+  margin-bottom: 80px;
+}
+.services__list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.services__flex-2,
+.services__flex-3 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 365px;
+  gap: 25px;
+}
+.services__item {
+  border-radius: 8px;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: right 20px top 20px;
+}
+.services__graphic {
+  background-color: #755cde;
+  background-image: url("../assets/pattern-graphic-design.svg");
+  width: 354px;
+  height: 364px;
+}
+.services__item-description {
+  font-size: 24px;
+  color: #fff;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+.services__flex-items {
+  display: flex;
+  gap: 25px;
+}
+.services__flex-2 {
+  display: flex;
+}
+.services__uiux,
+.services__apps {
+  background-color: #f39e9e;
+  width: 164px;
+  height: 182px;
+}
+.services__uiux {
+  background-image: url("../assets/pattern-ui-ux.svg");
+  background-color: #f6a560;
+}
+.services__apps {
+  background-image: url("../assets/pattern-apps.svg");
+}
+.services__photo {
+  background-color: #61c4b7;
+  width: 354px;
+  height: 182px;
+  background-image: url("../assets/pattern-photography.svg");
+}
+.services__flex-3 {
+  display: flex;
+}
+.services__illustration,
+.services__motion {
+  background-color: var(--coral);
+  width: 354px;
+  height: 158px;
+}
+.services__illustration {
+  background-image: url("../assets/pattern-illustrations.svg");
+  background-color: #eb7565;
+}
+.services__motion {
+  background-image: url("../assets/pattern-motion-graphics.svg");
+}
+.services__motion {
+  background-color: var(--dark-purple);
+  background-color: #552049;
+}

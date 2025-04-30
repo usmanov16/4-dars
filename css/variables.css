@@ -1,0 +1,38 @@
+@import "./style.css";
+
+:root {
+  /* Colors */
+  --color-purple: #755cde;
+  --color-orange: #f6a560;
+  --color-pink: #f39e9e;
+  --color-red: #eb7565;
+  --color-teal: #61c4b7;
+  --color-wine: #552049;
+  --color-black: #030303;
+  --color-gray: #7a746e;
+  --color-cream: #fff7f0;
+
+  /* Typography */
+  --font-family: "Plus Jakarta Sans", sans-serif;
+  --font-size-heading-l: 56px;
+  --line-height-heading-l: 70px;
+  --font-size-heading-m: 40px;
+  --line-height-heading-m: 50px;
+  --font-size-heading-s: 32px;
+  --line-height-heading-s: 40px;
+  --font-size-body: 18px;
+  --line-height-body: 28px;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+
+  /* Buttons */
+  --button1-bg-idle: var(--color-black);
+  --button1-bg-hover: var(--color-purple);
+  --button2-bg-idle: var(--color-orange);
+  --button2-bg-hover: var(--color-orange);
+  --button2-bg-hover-purple: var(--color-purple);
+
+  /* Arrows */
+  --arrow-bg-idle: var(--color-black);
+  --arrow-bg-hover: var(--color-purple);
+}
